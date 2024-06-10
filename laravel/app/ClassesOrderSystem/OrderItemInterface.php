@@ -4,7 +4,7 @@
  * Date: 04/09/2017
  * email:
  */
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
 interface OrderItemInterface {
 

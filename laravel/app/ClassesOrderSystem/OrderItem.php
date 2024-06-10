@@ -4,9 +4,9 @@
  * Date: 04/09/2017
  */
 
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
-use App\Classes\OrderItemInterface;
+use App\ClassesOrderSystem\OrderItemInterface;
 
 
 Class OrderItem implements OrderItemInterface {

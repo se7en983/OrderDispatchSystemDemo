@@ -5,7 +5,7 @@
  * Time: 19:49
  */
 
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
 
 Interface DispatchPeriodInterface {

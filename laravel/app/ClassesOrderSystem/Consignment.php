@@ -4,7 +4,7 @@
  * Date: 04/09/2017
  */
 
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
 use \SplObjectStorage;
 

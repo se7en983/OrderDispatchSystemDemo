@@ -3,7 +3,7 @@
  * Created by chris Jennings.
  * Date: 05/09/2017
  */
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
 
 Class Courier_203 extends Courier implements CourierInterface {

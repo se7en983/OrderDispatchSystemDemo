@@ -5,12 +5,12 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 
 // Use our classes
-use App\Classes\Courier;
-use App\Classes\Customer;
-use App\Classes\OrderItem;
-use App\Classes\Consignment;
-use App\Classes\CourierFactory;
-use App\Classes\DispatchPeriod;
+use App\ClassesOrderSystem\Courier;
+use App\ClassesOrderSystem\Customer;
+use App\ClassesOrderSystem\OrderItem;
+use App\ClassesOrderSystem\Consignment;
+use App\ClassesOrderSystem\CourierFactory;
+use App\ClassesOrderSystem\DispatchPeriod;
 
 class StartBatch extends Command
 {

@@ -4,8 +4,8 @@
  * Date: 04/09/2017
  * Time: 19:48
  */
-namespace App\Classes;
-use App\Classes\DispatchPeriodInterface;
+namespace App\ClassesOrderSystem;
+use App\ClassesOrderSystem\DispatchPeriodInterface;
 use \SplObjectStorage;
 Class DispatchPeriod  implements  DispatchPeriodInterface {
 

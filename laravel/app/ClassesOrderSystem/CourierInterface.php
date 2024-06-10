@@ -4,7 +4,7 @@
  * Date: 05/09/2017
  * Time: 12:32
  */
-namespace App\Classes;
+namespace App\ClassesOrderSystem;
 
 Interface CourierInterface {
 
