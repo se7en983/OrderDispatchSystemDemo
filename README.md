@@ -1,40 +1,7 @@
-{
-  // A json representation of how the system may look
-  "dispatchPeriod": {
-    "start": "start time",
-    "end": "end time",
-    // A single period will have multiple consignments and consignments will have hte following
-    "consignments": {
-      "con1": {
-        "items": {},
-        "customer": {
-          "id": "123",
-          "Name": "Smith Jones",
-          "Address": "1 long road"
-        },
-        "courier": {
-          "id" : "287",
-          "consignmentNumbers": {}
-        }
-      },
-      "con2": {
-        "items": {},
-        "customer": {
-          "id": "432",
-          "Name": "Sam Broom",
-          "Address": "97 the pines"
-        },
-        "courier": {
-          "id" : "882",
-          "consignmentNumbers": {}
-        }
-      }
-    }
-  }
-}
+Resulting Data Structure 
 
 
-// Resulting Data structure
+
 App\Classes\DispatchPeriod {#536
   -periodStart: DateTime {#539
     +"date": "2024-06-07 09:00:00.000000"
