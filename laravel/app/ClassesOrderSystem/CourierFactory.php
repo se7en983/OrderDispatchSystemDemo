@@ -18,9 +18,9 @@ Class CourierFactory {
     public static function buildCourier($courierId)
     {
 
-        if (class_exists('\App\Classes\Courier_' . $courierId)) {
+        if (class_exists('\App\ClassesOrderSystem\Courier_' . $courierId)) {
 
-            $class = '\App\Classes\Courier_' . $courierId;
+            $class = '\App\ClassesOrderSystem\Courier_' . $courierId;
 
             error_log($class);
 
